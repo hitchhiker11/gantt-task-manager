@@ -1,0 +1,30 @@
+{
+  "name": "Export To PDF - DevExtreme Gantt",
+  "description": "DevExtreme JavaScript Gantt component allows you to export the contents of your Gantt to PDF.  This demo allows you to apply the following built-in export and task filter options:\nExport Options\nDocument format  - Specifies document size.\nLandscape orientation – Renders the PDF horizontally.\nExport mode - Specifies Gantt regions to include within the exported document (chart area, tree list area, or the entire component).\nTask Filter Options\nDate range  - Restricts data output against a specified date range.\nStart task (index) – Restricts data output against the start task's index within an index range.\nEnd task (index) – Restricts data output against the end task's index within an index range.\nStart date (task)- Restricts data output by start date.\nEnd date (task) – Restricts data output by end date.\nClick the “Export” toolbar item to call the exportToPdf method (exports Gantt data with specified export options).\nTo enable PDF export operations, you must reference or import the following:\n\n\njsPDF\nA library that creates and manages PDF documents.\n\n\njsPDF-AutoTable\nA plugin that creates and manages tables in PDF documents.\n\n\n",
+  "dependencies": {
+    "rrule": "2.6.6",
+    "react-dom": "17.0.2",
+    "react": "17.0.2",
+    "prop-types": "15.7.2",
+    "luxon": "1.28.0",
+    "jszip": "3.7.1",
+    "jspdf-autotable": "3.5.14",
+    "jspdf": "2.3.1",
+    "inferno-hydrate": "7.4.11",
+    "inferno-extras": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-create-element": "7.4.11",
+    "inferno-create-class": "7.4.11",
+    "inferno-compat": "7.4.11",
+    "inferno-clone-vnode": "7.4.11",
+    "inferno": "7.4.11",
+    "fflate": "0.4.8",
+    "es6-object-assign": "1.1.0",
+    "devextreme-react": "21.2.4",
+    "devextreme-quill": "1.5.7",
+    "devextreme": "21.2.4",
+    "devexpress-gantt": "4.0.0",
+    "devexpress-diagram": "2.1.40",
+    "@devextreme/runtime": "2.3.13"
+  }
+}
