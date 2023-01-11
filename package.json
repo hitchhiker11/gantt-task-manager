@@ -1,6 +1,6 @@
 {
-  "name": "export-to-pdf-devextreme-gantt-forked",
-  "description": "DevExtreme JavaScript Gantt component allows you to export the contents of your Gantt to PDF.  This demo allows you to apply the following built-in export and task filter options:\nExport Options\nDocument format  - Specifies document size.\nLandscape orientation – Renders the PDF horizontally.\nExport mode - Specifies Gantt regions to include within the exported document (chart area, tree list area, or the entire component).\nTask Filter Options\nDate range  - Restricts data output against a specified date range.\nStart task (index) – Restricts data output against the start task's index within an index range.\nEnd task (index) – Restricts data output against the end task's index within an index range.\nStart date (task)- Restricts data output by start date.\nEnd date (task) – Restricts data output by end date.\nClick the “Export” toolbar item to call the exportToPdf method (exports Gantt data with specified export options).\nTo enable PDF export operations, you must reference or import the following:\n\n\njsPDF\nA library that creates and manages PDF documents.\n\n\njsPDF-AutoTable\nA plugin that creates and manages tables in PDF documents.\n\n\n",
+  "name": "gantt",
+  "description": "",
   "dependencies": {
     "rrule": "2.6.6",
     "react-dom": "17.0.2",
